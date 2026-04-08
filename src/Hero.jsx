@@ -8,11 +8,11 @@ const NAV_LINKS = [
   { label: 'Contact',  href: '#contact' },
 ]
 
-/* ── Swiggy / Zomato brand colors ── */
+
 const ORDER_PLATFORMS = [
   {
     name : 'Swiggy',
-    href : 'https://www.swiggy.com',   // replace with actual Benne Point Swiggy link
+    href : 'https://www.swiggy.com/city/agra/benne-point-civil-lines-rest1325067?utm_source=GooglePlaceOrder&utm_campaign=GoogleMap&is_retargeting=true&media_source=GooglePlaceOrder',   
     color: '#FC8019',
     icon : (
       <svg className="w-3.5 h-3.5" viewBox="0 0 24 24" fill="currentColor">
@@ -22,7 +22,7 @@ const ORDER_PLATFORMS = [
   },
   {
     name : 'Zomato',
-    href : 'https://www.zomato.com',   // replace with actual Benne Point Zomato link
+    href : 'https://www.zomato.com/agra/benne-point-kamla-nagar/order?v=o2',   // replace with actual Benne Point Zomato link
     color: '#E23744',
     icon : (
       <svg className="w-3.5 h-3.5" viewBox="0 0 24 24" fill="currentColor">
