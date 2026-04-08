@@ -22,7 +22,7 @@ const ORDER_PLATFORMS = [
   },
   {
     name : 'Zomato',
-    href : 'https://www.zomato.com/agra/benne-point-kamla-nagar/order?v=o2',   // replace with actual Benne Point Zomato link
+    href : 'https://www.zomato.com/agra/benne-point-kamla-nagar/order?v=o2',   
     color: '#E23744',
     icon : (
       <svg className="w-3.5 h-3.5" viewBox="0 0 24 24" fill="currentColor">
@@ -345,6 +345,12 @@ export default function Hero() {
             </div>
           </div>
         </div>
+
+        {/* Cover Veo watermark in bottom-right corner */}
+        <div
+          className="absolute pointer-events-none z-10"
+          style={{ bottom: 0, right: 0, width: '120px', height: '48px', background: 'linear-gradient(to top left, rgba(8,4,0,0.92) 40%, transparent 100%)' }}
+        />
 
         {/* Scroll indicator */}
         <button
